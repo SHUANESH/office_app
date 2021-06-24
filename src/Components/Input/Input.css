@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#BIGdiv{
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50vw;
+    height: 100vh;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+input{
+    border-top:solid 0px black;
+    border-left:solid 0px black;
+    border-right:solid 0px black;
+    border-bottom:solid 1px black;
+    font-size: 8px;
+}
+
+#BIGdiv >input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2px;
+    font-size: 8px;
+    border-radius:0px 2px;
+}
+
+input:focus{
+    background-color: skyblue;
+}
+ label{
+    font-family: 'Russo One', sans-serif;
+    font-size: 10px;
+    padding: 20px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    
+
+}
+#nameFirst:focus{
+   background-color: aquamarine;
+}
+
+#inputIdDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

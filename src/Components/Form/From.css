@@ -1,0 +1,58 @@
+.From{
+    height: 150vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px 0px rgba(25, 196, 156, 0.626);
+
+    
+}
+.From>input {
+    padding: 3px;
+    margin: 10px;
+}
+
+.From>label{
+    margin: -20px;
+}
+
+#aId{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 9px;
+    width: 40px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+h5,h6{
+    margin-top: 20px;
+}
+button{
+    width: 100px;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+}
+
+.divFrom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
